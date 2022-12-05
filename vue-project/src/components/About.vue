@@ -1,11 +1,8 @@
-<script setup>
-</script>
-
 <template>
   <div class="container-fluid">
     <div class="row">
-        <div class="col-6" id="img"></div>
-        <div class="col-6 pt-4 px-4 d-flex align-items-center" id="about-background">
+        <div class="col col-xs-12 col-lg-6" id="img"></div>
+        <div class="col-xs-12 col-lg-6 pt-4 px-4 d-flex align-items-center" id="about-background">
             <div class="row">
                 <div class="col-2"></div>
                 <div class="col text-center" id="about">
@@ -22,6 +19,7 @@
 <style scoped>
   #img{
         background: url('../assets/holiday.jpeg');
+        background-position: center;
         background-size: cover;
         height: 85vh;
   }
@@ -30,6 +28,7 @@
   }
   #about-background{
     background-image: linear-gradient(rgba(1,125,243,255), rgba(251,43,73,255));
+    padding-bottom: 20px;
   }
   @keyframes moveToRight {
     0% {
